@@ -9,19 +9,6 @@
 </head>
 <body>
 
-<!-- ✅ Home Hero Section with Particles -->
-<div id="particles-js"></div>
-<section id="home" class="hero">
-  <div class="hero-box">
-    <h1>Welcome to my Portfolio</h1>
-    <p>
-      Hi, I’m <b>Anitha</b>, a <b>Frontend Engineer</b> based in <b>Chicago, Illinois</b> 🌆.  
-      I’m an <b>undergraduate in Computer Science</b> and a <b>DevOps enthusiast</b>, 
-      passionate about building clean, scalable, and impactful technology solutions 🚀.
-    </p>
-  </div>
-</section>
-
 <!-- Header -->
 <header>
   <nav>
@@ -34,6 +21,21 @@
   </nav>
 </header>
 
+<!-- ✅ Home Hero Section with Particles -->
+<div id="particles-js"></div>
+<section id="home" class="hero">
+  <div class="hero-box">
+    <h1>Welcome to my Portfolio</h1>
+    <!-- <p>
+      Hi, I’m <b>Anitha</b>, a <b>Frontend Engineer</b> based in <b>Chicago, Illinois</b> 🌆.  
+      I’m an <b>undergraduate in Computer Science</b> and a <b>DevOps enthusiast</b>, 
+      passionate about building clean, scalable, and impactful technology solutions 🚀.
+    </p> -->
+    <a href="assets/resume.pdf" class="btn" download>Download My CV</a>
+    <a href="https://www.overleaf.com/read/fdkvtxvxvksc#c08102" class="btn" target="_blank">View in Overleaf</a>
+  </div>
+</section>
+
 <!-- About -->
 <section id="about">
   <h2>About Me</h2>
@@ -41,15 +43,12 @@
     <img src="assets/bg1.jpeg" alt="Anitha Bodempudi">
     <div class="about-text">
       <p>
-        Hi, I’m <b>Anitha</b> — a <b>Software Developer</b> who enjoys building things that are useful, simple, and meaningful.
+       Hi, I’m <b>Anitha</b>, a <b>Frontend Engineer</b> based in <b>Chicago, Illinois</b>. I specialize in building clean, scalable, and user-focused web applications.
       </p>
       <p>
-        Beyond coding, I’m someone who loves <b>reading books</b>, <b>traveling</b>, and getting lost in good <b>music</b>. 
-        These interests keep me curious, creative, and balanced in both life and work.
+       I like learning new technologies and improving my skills through practical work. Outside of coding, I enjoy reading, traveling, and listening to music.
       </p>
-      <p>
-        I believe the best technology is human-centered, and I bring that mindset into every project I work on.
-      </p>
+    
     </div>
   </div>
 </section>
@@ -59,19 +58,9 @@
   <h2>Education</h2>
   <div style="max-width:900px; margin:auto;">
     <div class="edu-card">
-      <h3>Company Name – Software Developer</h3>
-      <p><b>Chicago, Illinois | Jan 2024 – Present</b></p>
-      <p><b>Experience Highlights:</b></p>
-      <ul>
-        <li>Built and maintained responsive web applications using modern frontend technologies</li>
-        <li>Collaborated with cross-functional teams to deliver features from idea to production</li>
-        <li>Improved performance, usability, and accessibility across key user-facing pages</li>
-        <li>Contributed to CI/CD workflows and release processes as part of DevOps practices</li>
-      </ul>
-    </div>
-    <div class="edu-card">
       <h3>Jawaharlal Nehru Technological University – Bachelor of Technology, Computer Science</h3>
       <p><b>India | Jun 2015 – May 2019</b></p>
+      <p><b>Relevant Coursework:</b> Operating Systems, Automata Theory, DBMS, Data Structures, Design and Analysis of Algorithms, Java, Computer Networks, Human-Computer Interaction, Software Testing and Methodologies</p>
     </div>
   </div>
 </section>
@@ -83,9 +72,9 @@
     <div class="edu-card">
       <h3>My Skillset</h3>
       <p><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+), React, Responsive Design, TypeScript</p>
-      <p><b>Backend & Database:</b> Java, Spring Boot, SQL, MongoDB</p>
-      <p><b>DevOps & Cloud:</b> Git, GitHub Actions, Docker, CI/CD, AWS (EC2, S3)</p>
-      <p><b>Tools:</b> VS Code, Postman, Figma, Jira</p>
+      <p><b>Backend & Database:</b> Java Basics, SQL, MongoDB</p>
+      <p><b>DevOps & Cloud:</b> Git, GitHub Actions, Docker, AWS (EC2, S3)</p>
+      <p><b>Tools:</b> VS Code, Postman, Figma, Jira, Email on Acid, Litmus</p>
     </div>
   </div>
 </section>
@@ -93,32 +82,46 @@
 <!-- Projects -->
 <section id="projects">
   <h2>My Projects</h2>
+ 
   <div class="projects-container">
     <div class="project-card">
-      <h3>🧠 Suicidal Risk Prediction</h3>
-      <p>ML model to detect suicidal risk from text using MLP, Logistic Regression, and Random Forest.</p>
+      <h3>🌦️ Weather Casting</h3>
+      <p>Frontend weather dashboard that consumes API data and presents real-time forecasts in a clean UI.</p>
+      <a href="https://github.com/AnithaBodempudi/WeatherCast" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>⚙️ Ansible</h3>
+      <p>Automation and configuration management using Ansible for efficient deployment and orchestration.</p>
+      <a href="https://github.com/AnithaBodempudi/ansible-roboshop-roles" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>🧮 Calculator App</h3>
+      <p>Responsive frontend calculator built with React and reusable components for smooth user interaction.</p>
+      <a href="https://github.com/AnithaBodempudi/React-Calculator" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>🏢 Space Maker</h3>
+      <p>3D cabin office space aligner designed to visualize and optimize workspace layouts with an interactive frontend.</p>
       <a href="https://github.com/AnithaBodempudi/ARiSpaceMaker" target="_blank">View on GitHub</a>
     </div>
     <div class="project-card">
-      <h3>✋ Hand Gesture Recognition</h3>
-      <p>Real-time ASL detection using Python, TensorFlow, MediaPipe, and LSTM.</p>
-      <a href="https://github.com/AnithaBodempudi/ARiSpaceMaker" target="_blank">View on GitHub</a>
+      <h3>❌⭕ X's and O's</h3>
+      <p>Frontend game project focused on JavaScript logic, reusable UI states, and responsive layout.</p>
+      <a href="https://github.com/AnithaBodempudi/Xs-and-Os" target="_blank">View on GitHub</a>
     </div>
     <div class="project-card">
-      <h3>📊 Nykaa Product Review Analysis</h3>
-      <p>EDA project in R with Shiny dashboard to analyze e-commerce product reviews.</p>
-      <a href="https://github.com/AnithaBodempudi/ARiSpaceMaker" target="_blank">View on GitHub</a>
+      <h3>🎨 Random Color Generator</h3>
+      <p>Lightweight frontend utility that generates dynamic color palettes using JavaScript and DOM updates.</p>
+      <a href="https://github.com/AnithaBodempudi/RandomColor" target="_blank">View on GitHub</a>
     </div>
-    <div class="project-card">
-      <h3>🗣️ Aggression Detection Model</h3>
-      <p>Multiclass NLP model for abusive speech classification using TF-IDF + Naive Bayes.</p>
-      <a href="https://github.com/AnithaBodempudi/ARiSpaceMaker" target="_blank">View on GitHub</a>
+     <div class="project-card">
+      <h3>⚙️ Shellscript</h3>
+      <p>Automation scripts for efficient deployment and orchestration using Shell scripting.</p>
+      <a href="https://github.com/AnithaBodempudi/shell-roboshop-2" target="_blank">View on GitHub</a>
     </div>
-    <div class="project-card">
-      <h3>📝 Summary Generation App</h3>
-      <p>Flask + NLP web app to generate summaries of input text.</p>
-      <a href="https://github.com/AnithaBodempudi/ARiSpaceMaker" target="_blank">View on GitHub</a>
-    </div>
+  </div>
+  <div class="projects-actions">
+    <a href="#" id="toggleProjects" style="display: none;">View More</a>
   </div>
 </section>
 
